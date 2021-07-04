@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+}
+
+.imgEncabezado {
+    width: 100%;
+    height: 620px;
+}
+
+.h1 {
+    text-align: center;
+}
+
+nav {
+    background-color: #4b0e1f;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav>a {
+    color: cornsilk;
+    size: 5px;
+    text-decoration: none;
+}
+
+#img-logo {
+    background-image: url(../img/logo.png);
+    width: 8vw;
+    height: 7vh;
+    background-size: cover;
+    background-position: left;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+}
+
+figure {
+    padding-top: 5px;
+    margin: 0%;
+}
+
+#contenedor-image {
+    background-image: url(../img/principalY.jpg);
+    width: 100%;
+    height: 85vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fuenteTittle {
+    font-family: 'Times New Roman', Times, serif;
+    /* color: #900c3f;*/
+    color: #fff;
+}
+
+.subTittle {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.line {
+    background-color: #992345;
+    height: 4px;
+    border: none;
+    border-radius: 3px;
+}
+
+p {
+    text-align: justify;
+}
+
+.contenido {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+#carrouselOpcionI {
+    background-image: url(../img/opcionI.jpg);
+    width: 100%;
+    height: 500px;
+}
+
+#carrouselOpcionII {
+    background-image: url(../img/opcionII.jpg);
+    width: 100%;
+    height: 500px;
+}
+
+#carrouselOpcionIII {
+    background-image: url(../img/opcionIII.jpg);
+    width: 100%;
+    height: 500px;
+}
+
+#carrouselOpcionIV {
+    background-image: url(../img/opcionIV.jpg);
+    width: 100%;
+    height: 500px;
+}
+
+#carrouselOpcionV {
+    background-image: url(../img/opcionV.jpg);
+    width: 100%;
+    height: 500px;
+}
+
+.dysplay {
+    background-size: cover;
+    background-position: left;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+}
+
+#departamento {
+    background-image: url(../img/departamento.jpg);
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+}
+
+#casa {
+    background-image: url(../img/casa.jpg);
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+}
+
+#oficina {
+    background-image: url(../img/Oficina.jpg);
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+}
+
+#edificio {
+    background-image: url(../img/edificio.jpg);
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.textFigCaption {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #d83e69;
+    font-size: 20px;
+}
+
+.pie {
+    padding-top: 6px;
+    height: 100px;
+    background-color: rgb(68, 70, 78);
+    color: white;
+    text-align: center;
+}
